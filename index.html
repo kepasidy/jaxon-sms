@@ -3,43 +3,75 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jaxon — Personal Appointment Reminders</title>
+<title>Jaxon — Personal Appointment &amp; Medication Reminders</title>
+<meta name="description" content="Jaxon is a private appointment and medication reminder service operated by Kevin Jones. It sends SMS reminders for medical appointments and their preparation steps to the account owner and consented family members.">
 <style>
-  body { max-width: 740px; margin: 3rem auto; padding: 0 1.25rem;
+  :root { --ink:#1a1a1a; --muted:#5b6570; --line:#e2e2e2; --accent:#2b6cb0; --bg:#f4f6f8; }
+  * { box-sizing: border-box; }
+  body { max-width: 780px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
          font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         color: #1a1a1a; }
-  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
-  .sub { color: #666; }
-  ul { line-height: 2; }
-  .callout { background: #f4f6f8; border-left: 3px solid #2b6cb0; padding: .75rem 1rem; margin: 1.5rem 0; }
+         color: var(--ink); }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 2rem; margin: 0 0 .35rem; }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin: 0; }
+  h2 { font-size: 1.2rem; margin-top: 2.25rem; }
+  .callout { background: var(--bg); border-left: 3px solid var(--accent); padding: 1rem 1.15rem; margin: 1.5rem 0; border-radius: 4px; }
+  .callout p { margin: .3rem 0; }
+  ul.plain { line-height: 1.9; padding-left: 1.1rem; }
+  .links a { display:inline-block; margin-right: 1.25rem; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: .9rem; }
+  code { background: var(--bg); padding: .05rem .3rem; border-radius: 3px; }
 </style>
 </head>
 <body>
 
-<h1>Jaxon</h1>
-<p class="sub">A private, personal appointment &amp; medication reminder service operated by Kevin Jones.</p>
+<header>
+  <h1>Jaxon</h1>
+  <p class="tagline">Personal appointment &amp; medication reminders — operated by Kevin Jones.</p>
+</header>
 
-<p>Jaxon sends SMS reminders for scheduled medical appointments and their preparation
-steps to the account owner and to individuals who have personally consented to receive
-them. It is a personal utility, not a marketing service, and sends no promotional
-messages.</p>
+<p>Jaxon is a small, private reminder service. It keeps track of upcoming medical
+appointments and the preparation steps that go with them — when to start fasting, when
+to take a pre-appointment medication, when to leave — and sends timely SMS reminders so
+nothing important is missed. It is built for one household: the account owner and a
+designated family member who helps keep track of care.</p>
 
-<div class="callout">
-  <p style="margin:.2rem 0"><strong>Message program disclosures</strong></p>
-  <p style="margin:.2rem 0">Recurring appointment reminders. Message frequency varies.
-  Message and data rates may apply. Reply <strong>STOP</strong> to cancel,
-  <strong>HELP</strong> for help.</p>
-  <p style="margin:.2rem 0">We do not share, sell, or otherwise provide your mobile phone
-  number or messaging consent to any third parties or affiliates for marketing or
-  promotional purposes.</p>
-</div>
-
-<ul>
-  <li><a href="privacy-policy.html">Privacy Policy</a></li>
-  <li><a href="terms.html">SMS Terms &amp; Conditions</a></li>
+<h2>What Jaxon does</h2>
+<ul class="plain">
+  <li>Sends reminders for scheduled medical appointments and their exact preparation
+      timing (for example, "start drinking water 90 minutes before").</li>
+  <li>Tracks a course of recurring appointments (such as a radiation series) and counts
+      progress toward completion.</li>
+  <li>Loops in one consented family member as a backup, so a critical reminder isn't
+      missed if the account owner is unavailable.</li>
 </ul>
 
-<p class="sub">Contact: kepasidy@gmail.com</p>
+<h2>Who it's for</h2>
+<p>Jaxon is a personal utility, not a marketing service and not a public product. It
+sends no promotional messages. Recipients are only the account owner and one family
+member, each of whom has personally consented to receive messages.</p>
+
+<div class="callout">
+  <p><strong>Message program disclosures</strong></p>
+  <p>Jaxon sends recurring appointment &amp; medication reminders. Message frequency
+  varies. Message and data rates may apply. Reply <strong>STOP</strong> to cancel,
+  <strong>HELP</strong> for help.</p>
+  <p>We do not share, sell, or otherwise provide your mobile phone number or messaging
+  consent to any third parties or affiliates for marketing or promotional purposes.</p>
+</div>
+
+<h2>Policies</h2>
+<p class="links">
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms.html">SMS Terms &amp; Conditions</a>
+  <a href="opt-in.html">How recipients opt in</a>
+</p>
+
+<footer>
+  Jaxon is operated by Kevin Jones (sole proprietor). Questions or requests:
+  <strong>kevin@jaxonscheduler.com</strong>.
+</footer>
 
 </body>
 </html>
