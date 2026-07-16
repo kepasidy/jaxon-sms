@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Jaxon</title>
+<style>
+  body { max-width: 740px; margin: 2.5rem auto; padding: 0 1.25rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #1a1a1a; }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .updated { color: #666; font-size: .9rem; margin-top: 0; }
+  .callout { background: #f4f6f8; border-left: 3px solid #2b6cb0; padding: .75rem 1rem; margin: 1rem 0; }
+  code { background: #f4f6f8; padding: .05rem .3rem; border-radius: 3px; }
+  footer { margin-top: 3rem; color: #666; font-size: .85rem; border-top: 1px solid #e2e2e2; padding-top: 1rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Service: <strong>Jaxon</strong> (personal appointment &amp; medication reminder program) &middot; Operated by <strong>Kevin Jones</strong> (sole proprietor) &middot; Last updated: July 12, 2026</p>
+
+<p>This Privacy Policy explains what information Jaxon collects, how it is used, and
+how it is protected. Jaxon is a private, personal reminder service operated by Kevin
+Jones. It sends appointment and medication-preparation reminders by SMS text message
+to the account owner and to a small number of individuals who have personally
+consented to receive them. Jaxon is not a marketing service and sends no promotional
+or advertising messages.</p>
+
+<h2>Information we collect</h2>
+<p>We collect only what is needed to deliver reminders: the mobile phone number(s) of
+the person(s) who have opted in to receive messages, the record of that opt-in consent,
+and the content of the reminders themselves (for example, appointment times and
+preparation steps). We do not collect data from anyone who has not personally consented
+to receive messages.</p>
+
+<h2>How we use your information</h2>
+<p>Mobile phone numbers and consent records are used for one purpose only: to send the
+appointment and medication reminders that the recipient has agreed to receive, and to
+process replies such as <code>STOP</code> and <code>HELP</code>. We do not use this
+information for any advertising, marketing, or promotional purpose.</p>
+
+<div class="callout">
+  <p style="margin:0"><strong>We do not share, sell, rent, or otherwise provide your
+  mobile phone number or your messaging consent information to any third parties or
+  affiliates for marketing or promotional purposes.</strong> Mobile information is used
+  solely to operate this reminder service.</p>
+</div>
+
+<h2>Service providers</h2>
+<p>Reminders are delivered through Twilio, a messaging infrastructure provider, acting
+only to transmit the messages on our behalf. Any such provider may access phone numbers
+and message content strictly to deliver messages, and is not permitted to use that
+information for its own marketing or to share it for marketing or promotional purposes.
+No mobile opt-in data is shared with third parties or affiliates for marketing.</p>
+
+<h2>Message frequency, rates, and opt-out</h2>
+<p>Message frequency varies and depends on the recipient's scheduled appointments;
+around an appointment there may be several messages in a day, and on other days there
+may be none. <strong>Message and data rates may apply.</strong> You can cancel at any
+time by replying <code>STOP</code>, after which no further messages will be sent. Reply
+<code>HELP</code> for help. Carriers are not liable for delayed or undelivered messages.</p>
+
+<h2>Data retention and security</h2>
+<p>We retain phone numbers, consent records, and reminder history only as long as needed
+to operate the service, and delete them on request or when a recipient opts out. Access
+is limited to the operator.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy or requests to access or delete your information can be
+sent to <strong>kevin@jaxonscheduler.com</strong>.</p>
+
+<footer>
+  This policy applies to the Jaxon SMS reminder program operated by Kevin Jones. See
+  also our <a href="terms.html">SMS Terms &amp; Conditions</a>.
+</footer>
+
+</body>
+</html>
